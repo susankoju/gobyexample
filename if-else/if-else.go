@@ -16,5 +16,7 @@ func main() {
 
 	if i := 0; i == 0 {
 		fmt.Println("i is 0")
+	} else if i > 10 {
+		fmt.Println("i is greater than 10")
 	}
 }
